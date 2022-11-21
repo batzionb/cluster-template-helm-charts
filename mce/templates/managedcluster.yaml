@@ -1,0 +1,11 @@
+apiVersion: cluster.open-cluster-management.io/v1
+kind: ManagedCluster
+metadata:
+  labels:
+    local-cluster: "true"
+  name: local-cluster
+  annotations: 
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+spec:
+  hubAcceptsClient: true
+  leaseDurationSeconds: 60

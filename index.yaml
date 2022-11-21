@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
-  cluster-template-helm-charts:
+  hypershift-cluster:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-11-17T15:19:21.328121614+02:00"
+    created: "2022-11-21T16:53:17.699961928+02:00"
     description: A Helm chart for Kubernetes
-    digest: 2f76875a8904a84da90540fcb519d6906c1b6df61e9e57806952636b37331088
-    name: cluster-template-helm-charts
+    digest: 12953ebb7e957bd0db5c2630e79eeee624c9dfadc04f158777b7285d854a8081
+    name: hypershift-cluster
     type: application
     urls:
-    - https://batzionb.github.io/cluster-template-helm-charts/cluster-template-helm-charts-0.1.0.tgz
+    - https://batzionb.github.io/cluster-template-helm-charts/hypershift-cluster-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-17T15:19:21.327685398+02:00"
+  mce:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-11-21T16:53:17.700132147+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 8f182c9b14270dc8a7a7ef65219ae9126c585e9fbe328819b848444c3697a692
+    name: mce
+    type: application
+    urls:
+    - https://batzionb.github.io/cluster-template-helm-charts/mce-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-21T16:53:17.699632703+02:00"
