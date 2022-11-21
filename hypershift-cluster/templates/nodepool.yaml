@@ -4,7 +4,7 @@ metadata:
   name: 'np-{{ .Release.Namespace }}-{{ .Release.Name }}'
 spec:
   clusterName: {{ .Release.Namespace }}-{{ .Release.Name }}
-  replicas: 1
+  replicas: {{ .Values.replicas }}
   management:
     autoRepair: false
     upgradeType: InPlace
