@@ -17,7 +17,7 @@ spec:
   platform:
     type: Agent
     agent:
-      agentNamespace: batz-infraenv
+      agentNamespace: {{ .Values.infraEnv }}
   infraID: {{ .Release.Name }}
   dns:
     baseDomain: redhat.com
